@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class exercicio1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x, y, resultado;
+
+        x = sc.nextInt();
+        y = sc.nextInt();
+
+        resultado = x+y;
+
+        System.out.printf("A soma entre os numeros %d e %d é: %d)", x, y, resultado);
+
+        sc.close();
+
