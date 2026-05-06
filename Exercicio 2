@@ -1,0 +1,19 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicio2 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in); // comando pra entrada de dados
+        Locale.setDefault(Locale.US); // aparecer ponto ao invez de virgula
+        double p, r, a;
+        p = 3.14159;
+        r = sc.nextDouble(); // para usuario inserir o valor
+        a = p * Math.pow(r, 2); // ou "p * r * r
+        System.out.printf("O valor da area deste circulo é: %.4f %n", a);
+
+
+        sc.close();
+
+
+    }
+}
